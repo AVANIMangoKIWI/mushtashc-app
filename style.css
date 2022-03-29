@@ -1,0 +1,24 @@
+h1{
+   font-family: "Hurricane"
+}
+
+button{
+    color: chocolate;
+    background-color: darkorange;
+}
+button:hover{
+color: darkblue;
+background-color: aquamarine;
+}
+canvas{
+    border:5px solid blueviolet;
+ animation-name:this_is_a_animation;
+animation-duration:5s;
+animation-iteration-count: infinite;
+margin-top: 50px;
+
+}
+@keyframes this_is_a_animation{
+from{box-shadow: 100px 100px 80px gold;}
+to{box-shadow: 100px 100px 80px darkgoldenrod;}
+} 
